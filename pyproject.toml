@@ -1,0 +1,45 @@
+[project]
+name = "agentic-ai-crash-course"
+version = "0.1.0"
+description = "Agentic AI crash course by Codebasics"
+readme = "README.md"
+requires-python = ">=3.11"
+
+dependencies = [
+    "langchain>=0.3.0",
+    "langchain-core>=1.0.0",
+
+    # Ollama
+    "langchain-ollama>=0.3.0",
+    "ollama>=0.5.0",
+
+    # Optional (keep only if you still use Groq)
+    "langchain-groq>=0.3.0",
+
+    "python-dotenv>=1.2.2",
+    "streamlit>=1.57.0",
+
+    "ipykernel>=7.2.0",
+    "notebook>=7.5.6",
+
+    # RAG
+    "langchain-chroma>=1.1.0",
+    "langchain-huggingface>=1.2.2",
+    "chromadb>=1.5.9",
+    "sentence-transformers>=5.5.0",
+
+    # Data processing
+    "pandas>=2.2.0",
+
+    # PDF support
+    "fpdf2>=2.8.7",
+    "pypdf>=6.11.0",
+
+    # LangChain utilities
+    "langchain-community>=0.4.1",
+    "langchain-text-splitters>=1.1.2",
+
+    # Images
+    "pillow>=12.2.0",
+    "torchvision>=0.27.0",
+]
