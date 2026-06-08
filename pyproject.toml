@@ -1,7 +1,7 @@
 [project]
 name = "agentic-ai-crash-course"
 version = "0.1.0"
-description = "Agentic AI crash course by Codebasics"
+description = "Agentic AI crash course by NovaForg"
 readme = "README.md"
 requires-python = ">=3.11"
 
